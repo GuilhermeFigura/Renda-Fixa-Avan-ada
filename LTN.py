@@ -7,6 +7,10 @@ ltn = 1000
 du = 76
 aao = 11.8 / 100
 
+#Resolução pergunta A
 PV = ltn / (1 + aao) ** (76/252)
+print(f'O P.U de compra por quantidade de LTN foi R$ {PV:.2f}')
 
-print(f'O P.U de compra por quantidade de LTN foi R$ {PV:.2f}.')
+#Resolução pergunta B
+período = (ltn / PV) - 1
+print(f'A taxa de retorno foi de {período * 100:.4f}% a.o.p')
