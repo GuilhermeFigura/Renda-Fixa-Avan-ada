@@ -10,4 +10,3 @@ aao =  0.1025
 #Resolução letra A
 dia = ((1 + aao) ** (1/252)) -1
 print(f'A taxa ao dia útil é {dia * 100:.4f}%')
-
